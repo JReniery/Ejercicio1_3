@@ -68,11 +68,6 @@
                                             
                                         </StackLayout>
 
-
-
-
-
-
                                         <Label Grid.Row="2"
                                            Grid.ColumnSpan="3"
                                            Grid.Column="1"
@@ -81,10 +76,7 @@
                                                 BackgroundColor="LightGray"
                                            Text="{Binding Email}" />
                                     </Grid>
-
                                 </StackLayout>
-                                
-
                             </Frame>
                             
                         </SwipeView>
