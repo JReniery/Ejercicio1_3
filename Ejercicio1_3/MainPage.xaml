@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio1_3.MainPage">
+
+    <StackLayout>
+        <Label Text="{Binding Id}" x:Name="lblId"  Margin="20,0"/>
+        
+        <Label Text="Nombre" FontSize="Title" Padding="20,30,0,0"/>
+        <Entry Text="{Binding Name}" Placeholder="Ingrese el nombre" x:Name="txbName" Margin="20,0"/>
+
+        <Label Text="Apellidos" FontSize="Title" Padding="20,10,0,0"/>
+        <Entry Text="{Binding LastName}" Placeholder="Ingrese el apellido" x:Name="txbLastName" Margin="20,0"/>
+
+        <Label Text="Edad" FontSize="Title" Padding="20,10,0,0"/>
+        <Entry Text="{Binding Age}" Placeholder="Ingrese la edad" x:Name="txbAge" Margin="20,0"/>
+
+        <Label Text="Correo Electrónico" FontSize="Title" Padding="20,10,0,0"/>
+        <Entry Text="{Binding Email}" Placeholder="Ingrese el correo electrónico" x:Name="txbEmail" Margin="20,0"/>
+
+        <Label Text="Dirección" FontSize="Title" Padding="20,10,0,0"/>
+        <Entry Text="{Binding Address}" Placeholder="Ingrese la dirección" x:Name="txbAddress" Margin="20,0"/>
+
+        <Button Text="Guardar" x:Name="btnSave" Clicked="btnSave_Clicked"  HorizontalOptions="Center" Margin="0,20"/>
+        <Button Text="Lista de Personas" x:Name="btnPersonList" Clicked="btnPersonList_Clicked"  HorizontalOptions="Center" Margin="0,20"/>
+    </StackLayout>
+
+</ContentPage>
